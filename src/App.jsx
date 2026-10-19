@@ -1,3 +1,5 @@
+import './App.css';
+
 function App(){
   return(
 <>
@@ -10,9 +12,17 @@ function App(){
   Savor the Flavor,Join the Clube!
 </p>
 <img src="/images/burger.jpg" className="img2" alt="Delicious burger" />
-<img src="/images/bur.jpg" className="img2" alt="Delicious burger" /><img src="/images/burger.jpg" className="img2" alt="Delicious burger" />
-<img src="/images/image.ppg" className="img2" alt="Delicious burger" /><img src="/images/burger.jpg" className="img2" alt="Delicious burger" />
-<img src="/images/newburger.jpg" className="img2" alt="Delicious burger" /><img src="/images/burger.jpg" className="img2" alt="Delicious burger" />
+<img src="/images/bur.jpg" className="img3" alt="Delicious burger" /><img src="/images/burger.jpg" className="img2" alt="Delicious burger" />
+<img src="/images/image.jpg" className="img5" alt="Delicious burger" /><img src="/images/burger.jpg" className="img2" alt="Delicious burger" />
+<img src="/images/good.jpg" className="img4" alt="Delicious burger"/><img src="/images/burger.jpg" className="img2" alt="Delicious burger" />
+<img src="/images/newburger.jpg" className="img1" alt="Delicious burger"/><img src="/images/burger.jpg" className="img2" alt="Delicious burger" />
+ <div className="button-group">
+        <button id="button1">Home</button>
+        <button id="button2">About</button>
+        <button id="button3">Menu</button>
+        <button id="button4">shop</button>
+        </div>
+
 
 
 </>
