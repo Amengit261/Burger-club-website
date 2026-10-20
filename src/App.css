@@ -78,5 +78,11 @@ p{
 }
 h2{
     text-align: left;
+}.menu-title {
+    position: static;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
 }
+
 
