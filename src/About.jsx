@@ -1,8 +1,10 @@
+import './About.css';
+
 function About() {
   return (
     <section className="about-section" id="about">
       <div className="about-image">
-        <img src="/images/burger.jpg" alt="Delicious Burger Club burger" />
+        <img src="/images/now.jpg" alt="Delicious Burger Club burger" />
       </div>
 
       <div className="about-content">

@@ -1,3 +1,7 @@
+import './BurgerImages.css';
+
+
+
 function BurgerImages (){
   return(
 <>
@@ -8,7 +12,7 @@ function BurgerImages (){
 <img src="/images/good.jpg" className="img4" alt="Delicious burger"/>
 </div>
 
-<img src="/images/newburger.jpg" className="img1" alt="Delicious burger"/>
+<img src="/images/wow.jpg" className="img1" alt="Delicious burger"/>
 
 
 </>

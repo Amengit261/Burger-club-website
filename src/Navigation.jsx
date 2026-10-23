@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import './Navigation.css';
+
 function Navigation(){
     return(
 
@@ -10,7 +12,7 @@ function Navigation(){
     <Link to="/" className="button1">Home</Link>
     <Link to="/about" className="button2">About</Link>
     <Link to="/menu" className="button3">Menu</Link>
-    <Link to="/shop" className="button4">Shop</Link>
+    <Link to="/Contact " className="button4">Contact </Link>
 </div>
 </div>
     );
