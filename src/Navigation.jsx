@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation(){
@@ -9,10 +8,11 @@ function Navigation(){
   <div className="button-group">
     <h2>Explore Our Burger Club</h2>
 <div>
-    <Link to="/" className="button1">Home</Link>
-    <Link to="/about" className="button2">About</Link>
-    <Link to="/menu" className="button3">Menu</Link>
-    <Link to="/Contact " className="button4">Contact </Link>
+    <a href="#Home" className="button3">Home</a>
+ <a href="#about" className="button2">About</a>
+    <a href="#menu" className="button3">Menu</a>
+    <a href="#Contact" className="button3">Contact</a>
+
 </div>
 </div>
     );
